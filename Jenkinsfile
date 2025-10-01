@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        EC2_HOST = "135.8.11.23"
+        EC2_HOST = "*.*.*.*"
         EC2_USER = "root"
         WORKDIR = "~/bubsy-ml-api"
         SONAR_HOST_URL = "https://sonarqube.app.com"
